@@ -11,3 +11,5 @@
  *	fulfilment of the requirements of The University of Bolton for the degree of Bachelor of Science in May 2010.
  *	
  **************************************************************************************************/
+ 
+ No support is provided to actually compile this. Uses OGRE and CEGui.
