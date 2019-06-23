@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="TaharezLook/TabControl" Name="Root//Tab 3/TabControll" >
+            <Property Name="Alpha" Value="0.9" />
+            <Property Name="TabHeight" Value="{0,27.4589}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.696899,0},{1,0},{0.996899,0}}" />
+            <Window Type="DefaultWindow" Name="Root//Tab 1" >
+                <Property Name="Text" Value="Single Unit" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0.0178293,0},{1,0},{1,0}}" />
+                <Window Type="TaharezLook/Button" Name="Root//Tab 1/CreateUnit" >
+                    <Property Name="Text" Value="Create Unit" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="UnifiedAreaRect" Value="{{0.306836,0},{0.277117,0},{0.556835,0},{0.619055,0}}" />
+                </Window>
+            </Window>
+            <Window Type="DefaultWindow" Name="Root//Tab 2" >
+                <Property Name="Text" Value="Team" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+            <Window Type="DefaultWindow" Name="Root//Tab 3" >
+                <Property Name="Text" Value="Debug" />
+                <Property Name="Visible" Value="False" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            </Window>
+        </Window>
+        <Window Type="TaharezLook/Listbox" Name="Root//DebugText" >
+            <Property Name="Font" Value="Commonwealth-10" />
+            <Property Name="Alpha" Value="0.6" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.002148,0},{0.00374663,0},{0.380078,0},{0.316667,0}}" />
+        </Window>
+    </Window>
+</GUILayout>
